@@ -1,0 +1,48 @@
+
+\documentclass[aspectratio=169]{beamer}
+
+\input{preamble-update.tex}
+
+\title[Weekly Update]{Eichlersmith Weekly Update}
+
+\begin{document}
+
+\begin{frame}{Happy New Term!}{}
+
+  \boldcol{UMNStormy}{LDMX Task}
+  \begin{itemize}
+    \done (decided won't do) Python-focused HGC ROC interaction
+    \done Review introduction of HCal WAB veto
+    \done HGCAL-like YAML configuration files
+    \todo Translate Python YAML "compiler" into C++ for interaction with EUDAQ+pflib
+    \todo Actually get a new EUDAQ producer registered with program
+    \todo Automating run control commands via pflib+EUDAQ
+    \todo LDMX collab meeting software presentation
+  \end{itemize}
+
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+  \boldcol{UMNStormy}{TA}
+  \begin{itemize}
+    \done prep for Spring semester
+    \todo review first day talk
+  \end{itemize}
+
+  \boldcol{UMNStormy}{Cluster Admin}
+  \begin{itemize}
+    \todo feasibility testing for cluster
+  \end{itemize}
+\end{column}
+\begin{column}{0.5\textwidth}
+  \begin{block}{Reminder}
+    \tiny
+    Mounting change is happening today. Computer mounts will be updated on reboot.
+    Since Chad is nervous about deleting things, the stuff that was on whybee1 is 
+    now copied into \texttt{/data/cmszfs1/local} \textbf{and} a Chad added the automount
+    stuff for \texttt{/local/cms/} to still exist.
+  \end{block}
+\end{column}
+\end{columns}
+\end{frame}
+
+\end{document} 
